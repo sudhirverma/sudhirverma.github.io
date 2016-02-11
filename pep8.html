@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sudhir Verma</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="pep8.html">PEP8</a>
+                    </li>
+                    <!--<li>
+                        <a href="unittest.html">unittest</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Sudhir's Blog</h1>
+                        <hr class="small">
+                        <span class="subheading"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                        <h2 class="post-title">
+                            About pep8
+                        </h2>
+                        <p>I am using pep8 in my project to check the style guide for Python code</p>
+                        <p>The first comment I'he got during my first code review, you have W293 pep8 errors and then i thought what is pep8 and why we use pep8? </p>
+                        <p>PEPs are Python Enhancement Proposals, and they describe and document the way python language evolves. They also provide a 				reference point for the pythonic way to write code. The PEP8 is the Style Guide for Python Code, and it covers:
+			<ul type="disc">
+				<li>formatting</li>
+				<li>comments</li>
+				<li>naming conventions</li>
+			</ul>
+pep8 aim to improve readability and reliability of your code. 
+		</p>
+
+
+                </div>
+                <div class="post-preview">
+                        <h2 class="post-title">
+                            variable in the custome format option
+                        </h2>
+                    <p >
+                   <table border="1" style="width:100%">
+			<tr>
+				<td><b>Variable</b></td>
+				<td><b>Significance</b></td>
+			</tr>
+			<tr>
+				<td>path</td>
+				<td>File name</td>
+			</tr>
+			<tr>
+				<td>row</td>
+				<td>Row number</td>
+			</tr>
+			<tr>
+				<td>col</td>
+				<td>Column number</td>
+			</tr>
+			<tr>
+				<td>code</td>
+				<td>Error code</td>
+			</tr>
+			<tr>
+				<td>text</td>
+			        <td>Error text</td>
+			</tr>
+                     </table>
+</p>
+                </div>
+<div class="post-preview">
+                        <h2 class="post-title">
+                            one example of pep8 error
+                        </h2>
+<p><b>$ pep8 myprogram.py</b></p>
+                      <p>myprogram.py:69:11: E401 multiple imports on one line</p>
+                      <p>myprogram.py:77:1: E302 expected 2 blank lines, found 1</p>
+                      <p>myprogram.py:88:5: E301 expected 1 blank line, found 0</p>
+                      <p>myprogram.py:222:34: W602 deprecated form of raising exception</p>
+		      <p>myprogram.py:347:31: E211 whitespace before '('</p>
+                      <p>myprogram.py:357:17: E201 whitespace after '{'</p>
+                      <p>myprogram.py:472:29: E221 multiple spaces before operator</p>
+                      <p>myprogram.py:544:21: W601 .has_key() is deprecated, use 'in'</p>          
+                </div>
+                <!-- Pager -->
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/Sudhirverma_">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/sudhirvvermaa">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/sudhirverma">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">&copy;  Sudhir Verma</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
